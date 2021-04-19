@@ -23,38 +23,59 @@ function App() {
 }
 
 export default App;*/
-import React, { Component } from 'react';
-import Display from './Display';
-import axios from 'axios';
-import Lifecycle from './Lifecycle';
 
-class App extends Component {
-  state = {
-    post: {}
-  }
+import React, { Component } from "react";
+import Table from './Table';
+import {Card, CardContent, Typography} from '@material-ui/core'
 
-  componentDidMount = () => {
-    axios.get('http://jsonplaceholder.typicode.com/posts/7').then(res => {
-      console.log(res);
-      this.setState({
-        post: res.data
-      })
-    })
-  }
+class App extends Component
+{
+    constructor(props) {
+        super(props);
+        this.state = {
+            details: [],
+        }
+    }
+    
 
-  render() {
-  const {post} = this.state;
-    return (
-      <div>
-      {post.id}
-      {post.userId}
-      {post.title}
-      {post.body}
-    <Lifecycle />
-    <Display displayData = {this.state.displayData}/>
-      </div>
-    )
-  }
+    componentDidMount = () =>{
+        this.getData()
+    }
+    getData()
+    {
+      fetch('https://hub.dummyapis.com/employee?noofRecords=10&idStarts=1001')
+        .then(res => res.json()).then(resp =>{
+            this.setState({
+                details: resp
+            })
+        })
+    }
+
+    handleDelete = id => {
+      console.log(id);
+      const items = this.state.details.filter(data => data.id !== id);
+      this.setState({ details: items });
+      console.log(items);
+    };
+    
+
+    render(){
+          return(
+              <Card>
+              {this.state.details.map(data =>{
+                return(
+                  <CardContent style={{width: "100%",border: "1px solid black"}}>
+                      <Typography key = {data.id}>
+                         <p>Name : {data.firstName}</p>
+                         <p>email : {data.email}</p>
+                         <p>body:{data.age}</p>
+                      </Typography>
+                      <button onClick={() =>this.handleDelete(data.id)}>Delete</button>
+                  </CardContent> 
+                )})}
+              <Table/>
+            </Card>
+          );
+        }
 }
-
 export default App;
