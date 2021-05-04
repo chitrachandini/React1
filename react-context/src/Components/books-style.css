@@ -1,0 +1,7 @@
+.books-list h3,
+.books-list span{
+  display: inline-block;
+}
+.books-list{
+  margin-left:300px;
+}

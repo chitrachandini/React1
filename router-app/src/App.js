@@ -29,7 +29,9 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Navbar from './Components/Navbar';
-import EmployeeData from './Components/EmployeeData';
+//import EmployeeData from './Components/EmployeeData';
+import DummyData from './Components/DummyData';
+import Post from './Components/Post';
 
 class App extends Component{
 
@@ -41,7 +43,9 @@ class App extends Component{
     <Route exact path='/' component={Home} />
     <Route path='/about' component={About} />
     <Route path='/contactus' component={Contact} />
-    <Route path='/employeedata' component={EmployeeData}/>
+    {/*<Route path='/employeedata' component={EmployeeData}/>*/}
+    <Route path ='/dummydata' component={DummyData}></Route>
+    <Route path='/dummydata/:post_id' component={Post}></Route>
     </div>
     </BrowserRouter>
     );
