@@ -1,0 +1,28 @@
+.text{
+    width: 40%;
+    margin-left: 30%;
+}
+.hr{
+    width: 40%;
+    margin-left: 30%;
+}
+.c{
+    color: white;
+    background-color: black;
+    margin-left: 45%;
+}
+.hl{
+    width:60%;
+    margin-left: 20%;
+}
+.color{
+    color:red;
+}
+.move{
+    padding-right: 320px;
+    text-align: center;
+}
+.move1{
+    padding-right: 450px;
+    text-align: center;
+}
