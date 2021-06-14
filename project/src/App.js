@@ -29,10 +29,12 @@ import { BrowserRouter } from 'react-router-dom';
 import CardDetails from './CardDetails';
 import Navbar from './Components/Navbar';
 import Download from './Components/Download';
-import SignUp from './Components/SignUp';
+import LogIn from './Components/LogIn';
 import ContactUs from './Components/ContactUs';
 import Feedback from './Components/Feedback';
 import AboutUs from './Components/AboutUs';
+import Footer from './Footer'
+import Video from './Video'
 class App extends Component{
   render(){
     return (
@@ -43,9 +45,11 @@ class App extends Component{
           <Route exact path="/" component={CardDetails} />
           <Route exact path="/Download" component={Download}/>
           <Route exact path="/AboutUs" component={AboutUs}/>
-          <Route exact path="/SignUp" component={SignUp}/>
+          <Route exact path="/LogIn" component={LogIn}/>
           <Route exact path="/ContactUs" component={ContactUs}/>
           <Route exact path="/Feedback" component={Feedback}/>
+          <Route exact path='/dis/:id' component={Video}/>
+          <Footer/>
         </div>
       </BrowserRouter>
     </div>

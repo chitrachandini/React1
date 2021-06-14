@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardContent, Typography, Button } from '@material-ui/core';
 import './ContactUs.css'
+//import Poster from './chandini';
 
 const ContactUs = () =>{
 return(

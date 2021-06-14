@@ -9,6 +9,7 @@
 .c{
     color: white;
     background-color: black;
+    margin-left: 45%;
 }
 .hl{
     width:60%;
@@ -19,7 +20,9 @@
 }
 .move{
     padding-right: 320px;
+    text-align: center;
 }
 .move1{
     padding-right: 450px;
+    text-align: center;
 }

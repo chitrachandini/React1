@@ -1,0 +1,36 @@
+
+.cardData  {
+    width: 300px;
+    display: inline-block;
+    margin-right :10px;
+    margin-left: 70px;
+}
+.card{
+    width:400px;
+    background-color: rgb(19, 163, 163);
+    height: 100px;
+}
+.card-image{
+    height: 80px;
+    width: 80px;
+    margin-left: 160px;
+    padding-top: 60px;
+}
+.middle{
+    padding-top: 50px;
+    padding-left: 160px;
+}
+.middle1{
+    padding-left: 150px;
+}
+.image{
+    width: 20px;
+    height: 20px;
+}
+.line{
+    width: 40%;
+    margin-right: 56%;
+}
+.move{
+    margin-left: 10%;
+}

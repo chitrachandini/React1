@@ -1,0 +1,15 @@
+.form{
+    text-align: center;
+}
+.line{
+    width: 40%;
+    margin-left: 40%;
+}
+.changecolor{
+    color: black;
+    margin-right: 15%;
+}
+.c{
+    color:white;
+    background-color: black;
+}

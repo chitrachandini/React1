@@ -1,0 +1,138 @@
+[
+    {
+    "id":1,
+    "title":"Karthavyam",
+    "image":"https://th.bing.com/th/id/OIP.zHuMOYfR9rT8j5k3Tmmz_wAAAA?w=121&h=180&c=7&o=5&pid=1.7",
+    "time":"1 hrs 49 mins",
+    "cast":"Nayanathara,Vignesh",
+    "director":"Gopi Nainar",
+    "releasedate":"16 Mar 2018"
+   },
+{
+    "id":2,
+    "title":"HelloGuruPremakosame",
+    "image":"https://th.bing.com/th/id/OIP.kygVozerQgM4zknaChsEXwHaLH?w=179&h=268&c=7&o=5&pid=1.7",
+    "time":"2 hrs 20 min",
+    "cast":"Ram,Anupama ",
+    "director":"Trinadha Rao Nakkina",
+    "releasedate":"18 October 2018"
+},
+{
+    "id":3,
+    "title":"Chakra",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_DY7RJMKc213iMLv5OHx3exYVzVWq2aapZhGpbCOx6LGf_rCju7Z_vRuEPvbnQO96SLk&usqp=CAU",
+    "time":"2 hrs 11 min",
+    "cast":"Vishal,Shraddha,Regina",
+    "director":"Ms Anandan",
+    "releasedate":"19 Feb 2021"
+},
+{
+    "id":4,
+    "title":"Avengers",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO_URtZx3kYu0_jLJFVO_8JyPcGz5O_GGxfA&usqp=CAU",
+    "time":"2 hrs 6 min",
+    "cast":"Robert Downey",
+    "director":"Joss Whedon",
+    "releasedate":"11 Apr 2012"
+},
+{
+    "id":5,
+    "title":"Ant Man",
+    "image":"https://th.bing.com/th/id/OIP.7iEhs1fArMK_t76B0YB6ogHaK-?w=205&h=304&c=7&o=5&dpr=1.25&pid=1.71.7",
+    "time":"1 hrs 57 min",
+    "cast":"Paul Rudd",
+    "director":"Peyton Reed",
+    "releasedate":"29 June 2015"
+},
+{
+    "id":6,
+    "title":"The Nightingale",
+    "image":"https://th.bing.com/th/id/OIP.VrXhAN6liU4J8XcNFQ3-IQHaLH?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7",
+    "time":"2 hrs 16 min",
+    "cast":"Aisiling Fransciosi",
+    "director":"Jennifer Kent",
+    "releasedate":"6 Sep 2015"
+},
+{
+    "id":7,
+    "title":"Turbo",
+    "image":"https://th.bing.com/th/id/OIP.2wng8I7jvhMxlpNmZ5WaBgHaKq?w=206&h=296&c=7&o=5&dpr=1.25&pid=1.7",
+    "time":"1 hr 36 min",
+    "cast":"Ryan Reynolds",
+    "director":"David Soren",
+    "releasedate":"24 June 2013"
+},
+{
+    "id":8,
+    "title":"The Smurfs",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrogIkVV-cvTFVYMb6MWclGyqa1Ce6gOLVPg&usqp=CAU",
+    "time":"1 hr 43 min",
+    "cast":"Jonathan Winters",
+    "director":"Raja Gosnell",
+    "releasedate":"29 July 2011"
+},
+{
+    "id":9,
+    "title":"The Lorax",
+    "image":"https://th.bing.com/th/id/OIP.0FLwE-jvKdhz1o36WNqkFwHaKj?w=206&h=294&c=7&o=5&dpr=1.25&pid=1.7",
+    "time":"1 hr 26 min",
+    "cast":"Danny Diveto",
+    "director":"Chris Renaud",
+    "releasedate":"2 Mar 2012"
+},
+{
+    "id":10,
+    "title":"Look Like People",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdHbArYeof85_Ml35CGf2hInWGe5I7Bnnu8Q&usqp=CAU",
+    "time":"1 hr 20 min",
+    "cast":"MacLeod Andrews",
+    "director":"Perry Blackshear",
+    "releasedate":"25 Jan 2015"
+},
+{
+    "id":11,
+    "title":"Stranger Things",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRd2Ygp-eCHt8JpHI0_TDJPHq-WNys9Oru2w&usqp=CAU",
+    "time":"51 min",
+    "cast":"Winona Ryder",
+    "director":"The duffer brothers",
+    "releasedate":"15 July 2016"
+},
+{
+    "id":12,
+    "title":"The Abandoned",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkvDb6tKJuQhgf6HbE7CXMsixUw8oUWzxXHA&usqp=CAU",
+    "time":"1 hrs 39 min",
+    "cast":"Anastasia Hille",
+    "director":"Nacho Cerda",
+    "releasedate":"11 Sep 2006"
+},
+{
+    "id":13,
+    "title":"Black Panther",
+    "image":"https://th.bing.com/th/id/OIP.vtBPv0g_1jt-6aleWIeleAHaLH?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7",
+    "time":"2 hrs 14 min",
+    "cast":"ChadWick Boseman",
+    "director":"Ryan Coogler",
+    "releasedate":"29 Jan 2018"
+},
+{
+    "id":14,
+    "title":"Kong",
+    "image":"https://th.bing.com/th/id/OIP.FZdMX3i_uxCsD9G7cNHMMAHaLH?w=204&h=306&c=7&o=5&dpr=1.25&pid=1.7",
+    "time":"1 hr 58 min",
+    "cast":"Tom Hiddleston",
+    "director":"Jordan Vogt-Roberts",
+    "releasedate":"28 Feb 2017"
+},
+{
+    "id":15,
+    "title":"Rang de",
+    "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZfbYJbXJbFPoifEtb_hYy0Yc7Hd1QeyQAag&usqp=CAU",
+    "time":"2 hrs 10 min",
+    "cast":"Nithin,Keerthy Suresh",
+    "director":"Venky Atluri",
+    "releasedate":"26 Mar 2021"
+}
+
+]

@@ -14,7 +14,7 @@ const Download = ()=>{
                     <Typography gutterBottom variant="h5" component="h1">Downloads</Typography>
                     <Typography ><b>Special Note</b></Typography><br/>
                     <Typography>Due to changes on the sites that MoviePoster uses to collect data, all versions 1.0.1.8 and below are no longer able to reliably download poster data. These versions are now considered legacy and will no longer be supported. You can still download them if you wish from the <a href="https://www.movieposterapp.com/archive.html"> Archieve Page</a></Typography><br/>
-                    <Typography className = "color"><a href = "MoviePoster (Version 2.2.0.1 - April 7, 2016)">MoviePoster(Version 2.2.0.1 - April 7, 2016)</a></Typography>
+                    <Typography><a href = "MoviePoster (Version 2.2.0.1 - April 7, 2016)">MoviePoster(Version 2.2.0.1 - April 7, 2016)</a></Typography>
                     <Typography >This is the lastest 'stable' build. However for best compatibility, see the dev builds below.</Typography>
                     <Typography>New Features Include</Typography>
                     <Typography><li>Option to render posters internally at 4k resolution</li><li>Ability to change default fonts and colors</li><li>Fixed an issue with the 'Start with Windows' feature</li><li>WebView display option to display posters via a web browse</li><li>Download either as an .msi installer, or 7-Zip archive</li></Typography>

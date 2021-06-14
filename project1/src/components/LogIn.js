@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import './LogIn.css'
-import Notify from './Notify'
+//import Notify from './Notify'
 class  LogIn extends Component{
     state = {
         emailid: '',
@@ -20,7 +20,7 @@ class  LogIn extends Component{
     handleSubmit = (e) => {
         e.preventDefault();
         if(this.state.formValid === true){
-            window.alert('account successfully created')
+            //window.alert('account successfully created')
         }
         else{
             window.alert('enter correct values')
@@ -73,9 +73,8 @@ class  LogIn extends Component{
                                 <label htmlFor = "password"><b className = "changecolor">Password</b></label>
                                 <p className = "line"><input  type = "password"  id="password" onChange={this.handleChange} required/></p>
                                 <p>{this.state.error.passwordError}</p>
-                                <FormControlLabel  control={<Checkbox name="checkedC" />}label ="I agree the terms and conditions"/><br/><br/>
-                                <button className="c">Login</button>
-                                <Notify/>
+                                <FormControlLabel className="middle" control={<Checkbox name="checkedC" />}label ="I agree the terms and conditions"/><br/><br/>
+                                <button className="center">Login</button>
                             </form>
                     </div>
                 </div>

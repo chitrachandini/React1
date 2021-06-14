@@ -2,14 +2,20 @@
     text-align: center;
 }
 .line{
-    width: 20%;
+    width: 40%;
     margin-left: 40%;
 }
 .changecolor{
     color: black;
     margin-right: 15%;
 }
-.c{
+.center{
     color:white;
     background-color: black;
+}
+.middle{
+    padding-left: 70px;
+}
+.card{
+    height:400px;
 }

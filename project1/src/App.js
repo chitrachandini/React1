@@ -36,6 +36,8 @@ import Footer from './components/Footer'
 import {Provider} from 'react-redux';
 import store from './redux/store';
 import Video from './components/Video'
+//import LogIn from './components/LogIn';
+//import LogIn from './components/LogIn';
 class App extends Component{
   render(){
     return (
@@ -49,7 +51,9 @@ class App extends Component{
           <Route exact path="/Download" component={Download} />
           <Route exact path="/ContactUs" component={ContactUs} />
           <Route exact path="/Feedback" component={Feedback} />
+          {/*<Route exact path='/Video/:id' component={LogIn}/>*/}
           <Route exact path='/Video/:id' component={Video}/>
+          {/*<Route exact path = '/LogIn/:id' component = {LogIn}/>*/}
           <Footer/>
         </div>
       </BrowserRouter>
